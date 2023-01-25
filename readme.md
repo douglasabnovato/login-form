@@ -37,7 +37,8 @@ O desafio desse projeto é criar um formulário de login.
 
 ### 🚀 [Requisitos do projeto no notion](https://efficient-sloth-d85.notion.site/Desafio-Login-Form-CSS-a10caea5a183494e97eb9ce4f33536b3)
 
-- [ ] Você deve seguir o layout do Figma
+- [ ] atender ao layout do Figma
+- [ ] estrutura do html: fazendo
 - [ ] Os inputs devem ter estilos diferentes dependendo do estado (normal ou em foco)
     - Normal
         
@@ -51,7 +52,7 @@ O desafio desse projeto é criar um formulário de login.
         
         ![Checkbox](./.github/checkbox.png)
         
-- [ ] Deixar o layout responsivo como exemplo do Figma
+- [ ] ser um design responsivo com o layout do Figma
  
 ### 🎨 Style Guide
 
@@ -92,8 +93,8 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 
 #### 📅 Gestão do projeto
 
-- [ ] Organizando os detalhes do projeto no readme.md
-- [ ] Uma branch main e uma developer, uma branch para cada tarefa
+- [x] Organizando os detalhes do projeto no readme.md
+- [x] Uma branch main e uma developer, uma branch para cada tarefa
 - [x] Favicon
 - [ ] [Learn Responsive Design](https://web.dev/learn/design/)
 - [ ] [Learn CSS](https://web.dev/learn/css/)
