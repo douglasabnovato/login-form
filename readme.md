@@ -8,7 +8,7 @@
 
 ### 💻 Sobre o desafio
 
-Neste desafio você vai criar um formulário de login.
+O desafio desse projeto é criar um formulário de login.
 
 #### 💻 Techs
 
@@ -35,12 +35,10 @@ Neste desafio você vai criar um formulário de login.
 - 💡[App bonito, até nos textos](https://app.rocketseat.com.br/node/flexbox)
 - 💡[:focus-within](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:focus-within)
 
-### 🚀 [Requisitos do projeto](https://efficient-sloth-d85.notion.site/Desafio-Login-Form-CSS-a10caea5a183494e97eb9ce4f33536b3)
+### 🚀 [Requisitos do projeto no notion](https://efficient-sloth-d85.notion.site/Desafio-Login-Form-CSS-a10caea5a183494e97eb9ce4f33536b3)
 
-#### 🚀 Requisitos para o desafio  
-
-- Você deve seguir o layout do Figma
-- Os inputs devem ter estilos diferentes dependendo do estado (normal ou em foco)
+- [ ] Você deve seguir o layout do Figma
+- [ ] Os inputs devem ter estilos diferentes dependendo do estado (normal ou em foco)
     - Normal
         
         ![Normal](./.github/normal.png)
@@ -53,18 +51,13 @@ Neste desafio você vai criar um formulário de login.
         
         ![Checkbox](./.github/checkbox.png)
         
-- Deixar o layout responsivo como exemplo do Figma
+- [ ] Deixar o layout responsivo como exemplo do Figma
  
 ### 🎨 Style Guide
 
 #### 🎨 Cores
 
-- Templates de referências para ser feito
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/mobile-dark-yellow.png" >
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/web-dark-yellow.png" >
-</p>  
+- [ ] inserir as variáveis de cores
 
 ````css
 :root {
@@ -78,27 +71,42 @@ Neste desafio você vai criar um formulário de login.
 
 #### 🎨 Fontes
 
-- [ ] font-family: Poppins 
-- [ ] font Weight: 400, 500 e 600
-- [ ] font-family: Roboto
-- [ ] Font Weight: 400 e 500
-- [ ] Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
+- [ ] inserir as variáveis de fontes
+
+- font-family: Poppins 
+- font Weight: 400, 500 e 600
+- font-family: Roboto
+- Font Weight: 400 e 500
+- Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
+
+#### 🎨 Templates de referências para ser feito
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/mobile-dark-yellow.png" >
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/web-dark-yellow.png" >
+</p>  
 
 ### 📅 Entrega
 
 Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
 
-#### 📅 Tarefas
+#### 📅 Gestão do projeto
 
 - [ ] Organizando os detalhes do projeto no readme.md
-- [ ] Uma branch main e uma developer
+- [ ] Uma branch main e uma developer, uma branch para cada tarefa
 - [ ] Favicon
 - [ ] [Learn Responsive Design](https://web.dev/learn/design/)
 - [ ] [Learn CSS](https://web.dev/learn/css/)
 
-#### 📅 Telas
+#### 📅 Telas Finais
 
 - Desktop
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/tela-1.jpg" width="400px">
+</p>  
+
+- Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/tela-1.jpg" width="400px">
