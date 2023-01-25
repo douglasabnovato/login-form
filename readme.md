@@ -59,7 +59,7 @@ O desafio desse projeto é criar um formulário de login.
 
 #### 🎨 Cores
 
-- [ ] inserir as variáveis de cores
+- [x] inserir as variáveis de cores
 
 ````css
 :root {
