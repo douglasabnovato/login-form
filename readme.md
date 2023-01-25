@@ -73,8 +73,7 @@ O desafio desse projeto é criar um formulário de login.
 
 #### 🎨 Fontes
 
-- [ ] inserir as variáveis de [Google Fonts](https://fonts.google.com/)
-
+- [x] inserir as variáveis de [Google Fonts](https://fonts.google.com/)
 - font-family: Poppins. font Weight: 400, 500 e 600
 - font-family: Roboto. Font Weight: 400 e 500 
 
