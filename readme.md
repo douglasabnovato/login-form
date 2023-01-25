@@ -82,8 +82,8 @@ O desafio desse projeto é criar um formulário de login.
 #### 🎨 Templates de referências para ser feito
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/mobile-dark-yellow.png" >
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/web-dark-yellow.png" >
+  <img alt="mobile" title="#rocketnews" src="./.github/mobile-dark-yellow.png" height="400px">
+  <img alt="desktop" title="#rocketnews" src="./.github/web-dark-yellow.png" width="400px">
 </p>  
 
 ### 📅 Entrega
