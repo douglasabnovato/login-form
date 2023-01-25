@@ -27,18 +27,19 @@ O desafio desse projeto é criar um formulário de login.
 
 ### 💡 Conteúdos Aplicados
 
-- [ ] 💡[O guia estelar de HTML](https://app.rocketseat.com.br/node/o-guia-estelar-de-html)
-- [ ] 💡[O guia estelar de CSS](https://app.rocketseat.com.br/node/o-guia-estelar-de-css)
-- [ ] 💡[Posicionando foguetes](https://app.rocketseat.com.br/node/posicionando-foguetes)
+- [x] 💡[O guia estelar de HTML](https://app.rocketseat.com.br/node/o-guia-estelar-de-html)
+- [x] 💡[O guia estelar de CSS](https://app.rocketseat.com.br/node/o-guia-estelar-de-css)
+- [x] 💡[Posicionando foguetes](https://app.rocketseat.com.br/node/posicionando-foguetes)
 - [ ] 💡[Formulários de outro planeta](https://app.rocketseat.com.br/node/formularios-de-outro-planeta)
-- [ ] 💡[Alinhando os planetas](https://app.rocketseat.com.br/node/flexbox)
+- [x] 💡[Alinhando os planetas](https://app.rocketseat.com.br/node/flexbox)
 - [ ] 💡[App bonito, até nos textos](https://app.rocketseat.com.br/node/flexbox)
 - [ ] 💡[:focus-within](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:focus-within)
 
 ### 🚀 [Requisitos do projeto no notion](https://efficient-sloth-d85.notion.site/Desafio-Login-Form-CSS-a10caea5a183494e97eb9ce4f33536b3)
 
 - [ ] atender ao layout do Figma
-- [ ] estrutura do html: trabalhando nas divs
+- [x] estrutura do html: trabalhando nas divs
+- [ ] responsividade das divs
 - [ ] Os inputs devem ter estilos diferentes dependendo do estado (normal ou em foco)
     - Normal
         

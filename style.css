@@ -1,0 +1,43 @@
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+
+    background-color: var(--background);
+    color: var(--text-base);
+
+}
+
+.main {
+    background-color: red;
+}
+
+.container {
+    background-color: green;
+
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas: "form image";
+    grid-template-rows: 1fr;
+
+}
+
+.form {
+    background-color: blue;
+
+    grid-area: form;
+}
+
+.image {
+    background-image: url("./assets/side-image-2x.jpg");
+
+    grid-area: image;
+}
