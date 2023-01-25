@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/tela-1.jpg">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/versao-0.1.jpg">
 </p>  
 
 ### 💻 Sobre o desafio
@@ -73,13 +73,10 @@ O desafio desse projeto é criar um formulário de login.
 
 #### 🎨 Fontes
 
-- [ ] inserir as variáveis de fontes
+- [ ] inserir as variáveis de [Google Fonts](https://fonts.google.com/)
 
-- font-family: Poppins 
-- font Weight: 400, 500 e 600
-- font-family: Roboto
-- Font Weight: 400 e 500
-- Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
+- font-family: Poppins. font Weight: 400, 500 e 600
+- font-family: Roboto. Font Weight: 400 e 500 
 
 #### 🎨 Templates de referências para ser feito
 
@@ -105,13 +102,13 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/tela-1.jpg" width="400px">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/versao-0.1.jpg" width="400px">
 </p>  
 
 - Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/tela-1.jpg" width="400px">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/versao-mobile-0.1.jpg" width="400px">
 </p>  
 
 Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
