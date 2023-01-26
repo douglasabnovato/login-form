@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/versao-0.1.jpg">
+  <img alt="login form" title="#login-form" src="./.github/versao-0.2.jpg">
 </p>  
 
 ### 💻 Sobre o desafio
@@ -80,8 +80,8 @@ O desafio desse projeto é criar um formulário de login.
 #### 🎨 Templates de referências para ser feito
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="mobile" title="#rocketnews" src="./.github/mobile-dark-yellow.png" height="400px">
-  <img alt="desktop" title="#rocketnews" src="./.github/web-dark-yellow.png" width="400px">
+  <img alt="mobile" title="#login-form" src="./.github/mobile-dark-yellow.png" height="400px">
+  <img alt="desktop" title="#login-form" src="./.github/web-dark-yellow.png" width="400px">
 </p>  
 
 ### 📅 Entrega
@@ -101,13 +101,15 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/versao-0.1.jpg" width="400px">
+  <img alt="login form" title="#login-form" src="./.github/versao-0.2.jpg" width="400px">
+  <img alt="login form" title="#login-form" src="./.github/versao-0.1.jpg" width="400px">
 </p>  
 
 - Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/versao-mobile-0.1.jpg" width="400px">
+  <img alt="login form" title="#rocketnews" src="./.github/versao-mobile-0.2.jpg" height="400px">
+  <img alt="login form" title="#rocketnews" src="./.github/versao-mobile-0.1.jpg" height="400px">
 </p>  
 
 Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
