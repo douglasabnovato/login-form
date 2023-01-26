@@ -74,6 +74,10 @@ body {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .form-left .form-box .form-title .form-description {
@@ -88,6 +92,7 @@ body {
 .form-left .form-box form {
     margin-inline: 40px;
     padding-inline: 68px;
+    padding-bottom: 1px;
 }
 
 .form-left .form-box form div.email,
@@ -95,6 +100,15 @@ body {
 .form-left .form-box form div.lembrete,
 .form-left .form-box form div.entrar {
     margin-bottom: 23px;
+}
+
+.form-left .form-box form div.email label,
+.form-left .form-box form div.password label {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .form-left .form-box form input.email_inp,
@@ -106,31 +120,41 @@ body {
     opacity: 0.1;
 }
 
-.form-left .form-box form .lembrete {
+.form-left .form-box form div.lembrete {
     display: flex;
     justify-content: space-between;
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
 }
 
-.form-left .form-box form .lembrete .esqueci a {
+.form-left .form-box form div.lembrete div.lembrei label.lembrete_lab {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.form-left .form-box form div.lembrete div.esqueci a {
     color: var(--primary-color);
     text-decoration: none;
 
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
 }
 
-.form-left .form-box form .entrar input {
+.form-left .form-box form div.entrar input.entrar {
     background-color: var(--primary-color);
     border-radius: 4px;
+    border: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -138,21 +162,49 @@ body {
     padding: 12px 24px;
     gap: 10px;
     width: 100%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    color: #473404;
 }
 
-.form-left .form-box form .registrar_conta {
+.form-left .form-box form div.registrar_conta {
     margin-bottom: 54px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.form-left .form-box form .registrar_conta span {
+.form-left .form-box form .registrar_conta span.texto {
     color: var(--primary-color);
-    justify-content: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    margin-right: 6px;
 }
 
 .form-left .form-box form .registrar_conta a.register {
     color: var(--primary-color);
     text-decoration: none;
     font-weight: bold;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .form-right {
@@ -181,12 +233,12 @@ body {
     background: linear-gradient(240deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)100%);
 }
 
-.form-right .content {
+.form-right div.content {
     color: var(--text-title);
     z-index: 9;
 }
 
-.form-right .content h3 {
+.form-right div.content div.titulo {
     font-size: 38px;
     line-height: 48px;
     position: relative;
@@ -195,20 +247,20 @@ body {
     letter-spacing: -0.5;
 }
 
-.form-right .content::after {
+.form-right div.content div.titulo::after {
+    background: var(--primary-color); 
     content: "";
     position: absolute;
     width: 85%;
     height: 6px;
-    background: var(--primary-color);
-    bottom: 196px;
+    top: 62px;
+    left: -7px;
 }
 
-.form-right .content p {
+.form-right div.content p {
     font-size: 22px;
     line-height: 22px;
 }
-
 
 @media (max-width:678px) {
     body {
@@ -236,7 +288,7 @@ body {
         z-index: -1;
     }
 
-    .form-wrapper .form-container .form-right .content {
+    .form-wrapper .form-container .form-right div.content {
         display: none;
         flex-basis: 100%;
         flex-direction: column;

@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="login form" title="#login-form" src="./.github/versao-0.2.jpg">
+  <img alt="login form" title="#login-form" src="./.github/versao-0.3.jpg">
 </p>  
 
 ### 💻 Sobre o desafio
@@ -101,6 +101,7 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="login form" title="#login-form" src="./.github/versao-0.3.jpg" width="400px">
   <img alt="login form" title="#login-form" src="./.github/versao-0.2.jpg" width="400px">
   <img alt="login form" title="#login-form" src="./.github/versao-0.1.jpg" width="400px">
 </p>  
