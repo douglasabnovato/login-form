@@ -3,7 +3,7 @@
 :root {
     --text-base: #afb6c2;
     --text-title: #d4ccb6;
-    --background: #402c04;
+    --background: #4d483f;
     --card-background: #191816;
     --form-background: #24221f;
     --primary-color: #ffc632;
@@ -24,8 +24,12 @@ body {
 }
 
 .form-wrapper {
-    max-width: 45vw;
-    max-height: 80vh;
+
+    height: 100%;
+    max-height: 55vh;
+    width: 100%;
+    max-width: 70vw;
+
     margin: 10vh auto;
 }
 
@@ -42,13 +46,22 @@ body {
 }
 
 .form-left .header {
-    padding: 10px;
+    padding-left: 1rem;
+    padding-top: .7rem;
+    margin-bottom: 120px;
 }
 
 .form-left .form-box {
     background-color: var(--form-background);
     border-radius: 4px;
     padding: 30px;
+}
+
+.form-left .form-box form div.email,
+.form-left .form-box form div.password,
+.form-left .form-box form div.lembrete,
+.form-left .form-box form div.entrar {
+    margin-bottom: 23px;
 }
 
 .form-left .form-box form input.email_inp,
@@ -61,12 +74,14 @@ body {
 }
 
 .form-left .form-title {
-    padding: 10px;
+    margin-bottom: 30px;
 }
 
 .form-left .form-title img {
-    color: var(--primary-color);width: 24px;
+    color: var(--primary-color);
+    width: 24px;
     height: 24px;
+    margin-right: 3px;
 }
 
 form .lembrete {
@@ -162,6 +177,9 @@ form .registrar_conta a.register {
         padding: 0;
         margin: 0;
         background: var(--card-background);
+
+        height: 100vh;
+        width: 100vw;
     }
 
     .form-wrapper {
@@ -178,13 +196,13 @@ form .registrar_conta a.register {
         width: 100%;
         height: 100%;
         z-index: -1;
-    } 
+    }
 
     .form-right .content {
         display: none;
         flex-basis: 100%;
         flex-direction: column;
-        justify-content: center; 
+        justify-content: center;
     }
 
 }
