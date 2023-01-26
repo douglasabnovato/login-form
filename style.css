@@ -3,9 +3,11 @@
 :root {
     --text-base: #afb6c2;
     --text-title: #d4ccb6;
-    --background: #191816;
+    --background: #402c04;
+    --card-background: #191816;
     --form-background: #24221f;
     --primary-color: #ffc632;
+
 }
 
 * {
@@ -22,21 +24,19 @@ body {
 }
 
 .form-wrapper {
-    background-color: red;
     max-width: 45vw;
     max-height: 80vh;
     margin: 10vh auto;
 }
 
 .form-container {
-    background-color: yellow;
     color: #002333;
     display: flex;
     align-items: stretch;
 }
 
 .form-left {
-    background-color: var(--background);
+    background-color: var(--card-background);
     color: var(--text-base);
     font-family: 'Poppins', sans-serif;
 }
@@ -65,7 +65,8 @@ body {
 }
 
 .form-left .form-title img {
-    color: var(--primary-color);
+    color: var(--primary-color);width: 24px;
+    height: 24px;
 }
 
 form .lembrete {
@@ -81,14 +82,12 @@ form .lembrete .esqueci a {
 form .entrar input {
     background-color: var(--primary-color);
     border-radius: 4px;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
     gap: 10px;
-
     width: 100%;
 }
 
@@ -104,7 +103,6 @@ form .registrar_conta a.register {
 }
 
 .form-right {
-    background-color: blue;
     padding: 20px;
     display: flex;
     flex-basis: 50%;
@@ -161,15 +159,14 @@ form .registrar_conta a.register {
 
 @media (max-width:678px) {
     body {
-        background: none;
         padding: 0;
         margin: 0;
+        background: var(--card-background);
     }
 
     .form-wrapper {
         max-height: 100vh;
         max-width: 100vw;
-        padding-top: 20px;
     }
 
     .form-container {
@@ -181,19 +178,13 @@ form .registrar_conta a.register {
         width: 100%;
         height: 100%;
         z-index: -1;
-    }
-
-    .form-right::before {
-        background: linear-gradient(135deg, #fffeb2 10%, #1904e5 100%);
-        opacity: 0.5;
-    }
+    } 
 
     .form-right .content {
         display: none;
         flex-basis: 100%;
         flex-direction: column;
-        justify-content: center;
-        background-color: rgba(245, 245, 245, 0.7);
+        justify-content: center; 
     }
 
 }
