@@ -33,14 +33,18 @@ O desafio desse projeto é criar um formulário de login.
 - [ ] 💡[Formulários de outro planeta](https://app.rocketseat.com.br/node/formularios-de-outro-planeta)
 - [x] 💡[Alinhando os planetas](https://app.rocketseat.com.br/node/flexbox)
 - [ ] 💡[App bonito, até nos textos](https://app.rocketseat.com.br/node/flexbox)
-- [ ] 💡[:focus-within](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:focus-within)
+- [x] 💡[:focus-within](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:focus-within)
 
 ### 🚀 [Requisitos do projeto no notion](https://efficient-sloth-d85.notion.site/Desafio-Login-Form-CSS-a10caea5a183494e97eb9ce4f33536b3)
 
 - [ ] atender ao layout do Figma
 - [x] estrutura do html: trabalhando nas divs
 - [x] responsividade com grid ou flexbox das divs
-- [ ] Os inputs devem ter estilos diferentes dependendo do estado (normal ou em foco)
+- [ ] modo eye, exibindo, e eye slash, segredo
+- [ ] lembre-me com e sem foco
+- [ ] tamanho das divs
+- [ ] mobile
+- [x] Os inputs devem ter estilos diferentes dependendo do estado (normal ou em foco)
     - Normal
         
         ![Normal](./.github/normal.png)

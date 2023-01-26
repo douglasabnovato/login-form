@@ -151,6 +151,15 @@ body {
     background-position: 11px 11px;
 }
 
+.form-left .form-box form div.input_password {
+    display: flex;
+}
+
+.form-left .form-box form img.eye_password_inp { 
+    margin-left: -30px;
+    cursor: pointer;
+}
+
 .form-left .form-box form div.lembrete {
     display: flex;
     justify-content: space-between;
