@@ -41,9 +41,12 @@ O desafio desse projeto é criar um formulário de login.
 - [x] estrutura do html: trabalhando nas divs
 - [x] responsividade com grid ou flexbox das divs
 - [x] modo eye, exibindo, e eye slash, segredo
-- [ ] lembre-me com e sem foco
+- [x] lembre-me com e sem foco
 - [ ] tamanho das divs
-- [ ] mobile
+- [ ] ser um design responsivo com o layout do Figma 
+
+#### 🚀 Detalhes dos inputs
+
 - [x] Os inputs devem ter estilos diferentes dependendo do estado (normal ou em foco)
     - Normal
         
@@ -57,7 +60,6 @@ O desafio desse projeto é criar um formulário de login.
         
         ![Checkbox](./.github/checkbox.png)
         
-- [ ] ser um design responsivo com o layout do Figma
  
 ### 🎨 Style Guide
 

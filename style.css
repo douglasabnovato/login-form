@@ -184,6 +184,7 @@ body {
 }
 
 .form-left .form-box form div.lembrete div.lembrei input.lembrete_inp {
+    all:unset;
     width: 20px;
     height: 20px;
     box-sizing: border-box;
@@ -193,6 +194,12 @@ body {
     cursor: pointer;
     clip: rect(0 0 0 0);
 }
+
+.form-left .form-box form div.lembrete div.lembrei input.lembrete_inp:checked{
+    border: dashed 1px transparent;
+    background: var(--primary-color); 
+    background-image:url("./assets/check.svg") ;
+} 
 
 .form-left .form-box form div.lembrete div.lembrei label.lembrete_lab {
     font-family: 'Roboto', sans-serif;
