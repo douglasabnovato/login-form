@@ -37,7 +37,7 @@ O desafio desse projeto é criar um formulário de login.
 
 ### 🚀 [Requisitos do projeto no notion](https://efficient-sloth-d85.notion.site/Desafio-Login-Form-CSS-a10caea5a183494e97eb9ce4f33536b3)
 
-- [ ] atender ao layout do Figma
+- [x] atender ao layout do Figma
 - [x] estrutura do html: trabalhando nas divs
 - [x] responsividade com grid ou flexbox das divs
 - [x] modo eye, exibindo, e eye slash, segredo
