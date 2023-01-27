@@ -42,8 +42,8 @@ O desafio desse projeto é criar um formulário de login.
 - [x] responsividade com grid ou flexbox das divs
 - [x] modo eye, exibindo, e eye slash, segredo
 - [x] lembre-me com e sem foco
-- [ ] tamanho das divs
-- [ ] ser um design responsivo com o layout do Figma 
+- [x] tamanho das divs
+- [x] ser um design responsivo com o layout do Figma 
 
 #### 🚀 Detalhes dos inputs
 
@@ -117,6 +117,7 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="login form" title="#rocketnews" src="./.github/versao-mobile-0.3.jpg" height="400px">
   <img alt="login form" title="#rocketnews" src="./.github/versao-mobile-0.2.jpg" height="400px">
   <img alt="login form" title="#rocketnews" src="./.github/versao-mobile-0.1.jpg" height="400px">
 </p>  

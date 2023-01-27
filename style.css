@@ -74,7 +74,6 @@ body {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -112,7 +111,7 @@ body {
 }
 
 .form-left .form-box form input.email_inp,
-.form-left .form-box form input.password_inp {    
+.form-left .form-box form input.password_inp {
     background: var(--form-background);
     color: var(--text-base);
     border: 1px solid #868686;
@@ -131,23 +130,23 @@ body {
     outline: 1px solid var(--primary-color);
 }
 
-.form-left .form-box form input.email_inp{
+.form-left .form-box form input.email_inp {
     background: url("./assets/mail.svg") no-repeat left;
     background-position: 11px 11px;
 }
 
-.form-left .form-box form input.password_inp { 
-    background: url("./assets/lock.svg") no-repeat left; 
+.form-left .form-box form input.password_inp {
+    background: url("./assets/lock.svg") no-repeat left;
     background-position: 11px 11px;
-} 
+}
 
-.form-left .form-box form input.email_inp:focus-within{
-    background: url("./assets/mail-focus.svg") no-repeat left; 
+.form-left .form-box form input.email_inp:focus-within {
+    background: url("./assets/mail-focus.svg") no-repeat left;
     background-position: 11px 11px;
 }
 
 .form-left .form-box form input.password_inp:focus-within {
-    background: url("./assets/lock-focus.svg") no-repeat left; 
+    background: url("./assets/lock-focus.svg") no-repeat left;
     background-position: 11px 11px;
 }
 
@@ -155,19 +154,18 @@ body {
     display: flex;
 }
 
-.form-left .form-box form img.eye_password_inp { 
+.form-left .form-box form img.eye_password_inp {
     margin-left: -30px;
     cursor: pointer;
-} 
+}
 
-.form-left .form-box form .bi-eye {  
-    background: url("./assets/eye.svg") no-repeat left; 
-} 
+.form-left .form-box form .bi-eye {
+    background: url("./assets/eye.svg") no-repeat left;
+}
 
 .form-left .form-box form div.lembrete {
     display: flex;
     justify-content: space-between;
-
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -184,7 +182,7 @@ body {
 }
 
 .form-left .form-box form div.lembrete div.lembrei input.lembrete_inp {
-    all:unset;
+    all: unset;
     width: 20px;
     height: 20px;
     box-sizing: border-box;
@@ -195,11 +193,11 @@ body {
     clip: rect(0 0 0 0);
 }
 
-.form-left .form-box form div.lembrete div.lembrei input.lembrete_inp:checked{
+.form-left .form-box form div.lembrete div.lembrei input.lembrete_inp:checked {
     border: dashed 1px transparent;
-    background: var(--primary-color); 
-    background-image:url("./assets/check.svg") ;
-} 
+    background: var(--primary-color);
+    background-image: url("./assets/check.svg");
+}
 
 .form-left .form-box form div.lembrete div.lembrei label.lembrete_lab {
     font-family: 'Roboto', sans-serif;
@@ -213,7 +211,6 @@ body {
 .form-left .form-box form div.lembrete div.esqueci a {
     color: var(--primary-color);
     text-decoration: none;
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -232,7 +229,6 @@ body {
     padding: 12px 24px;
     gap: 10px;
     width: 100%;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -240,13 +236,11 @@ body {
     line-height: 27px;
     letter-spacing: 0.015em;
     text-transform: uppercase;
-
     color: #473404;
 }
 
 .form-left .form-box form div.registrar_conta {
     margin-bottom: 54px;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -255,13 +249,11 @@ body {
 
 .form-left .form-box form .registrar_conta span.texto {
     color: var(--primary-color);
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-
     margin-right: 6px;
 }
 
@@ -269,7 +261,6 @@ body {
     color: var(--primary-color);
     text-decoration: none;
     font-weight: bold;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -288,9 +279,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-
     font-family: 'Roboto', sans-serif;
-
 }
 
 .form-right::before {
@@ -339,9 +328,6 @@ body {
         padding: 0;
         margin: 0;
         background: var(--card-background);
-
-        height: 100vh;
-        width: 100vw;
     }
 
     .form-wrapper {
@@ -351,6 +337,36 @@ body {
 
     .form-wrapper .form-container {
         position: relative;
+    }
+
+    .form-wrapper .form-container .form-left .form-box {
+        background: var(--card-background);
+    }
+
+    .form-wrapper .form-container .form-left .form-box .form-title {
+        margin-inline: 0px;
+    }
+
+    .form-wrapper .form-container .form-left .form-box form {
+        margin-inline: 0px;
+    }
+
+    .form-wrapper .form-container .form-left .form-box form div.password,
+    .form-wrapper .form-container .form-left .form-box form div.lembrete,
+    .form-wrapper .form-container .form-left .form-box form div.entrar,
+    .form-wrapper .form-container .form-left .form-box form div.email {
+        margin-inline: 0px;
+        padding-inline: 0px;
+        width: 90vw;
+    }
+
+    .form-wrapper .form-container .form-left,
+    .form-wrapper .form-container .form-left .header img,
+    .form-wrapper .form-container .form-left .form-box,
+    .form-wrapper .form-container .form-left .form-box .form-title h2,
+    .form-wrapper .form-container .form-left .form-box .form-title .form-description {
+        margin: 0;
+        padding: 0;
     }
 
     .form-wrapper .form-container .form-right {
