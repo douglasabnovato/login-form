@@ -40,7 +40,7 @@ O desafio desse projeto é criar um formulário de login.
 - [ ] atender ao layout do Figma
 - [x] estrutura do html: trabalhando nas divs
 - [x] responsividade com grid ou flexbox das divs
-- [ ] modo eye, exibindo, e eye slash, segredo
+- [x] modo eye, exibindo, e eye slash, segredo
 - [ ] lembre-me com e sem foco
 - [ ] tamanho das divs
 - [ ] mobile

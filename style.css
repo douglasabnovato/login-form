@@ -158,7 +158,11 @@ body {
 .form-left .form-box form img.eye_password_inp { 
     margin-left: -30px;
     cursor: pointer;
-}
+} 
+
+.form-left .form-box form .bi-eye {  
+    background: url("./assets/eye.svg") no-repeat left; 
+} 
 
 .form-left .form-box form div.lembrete {
     display: flex;

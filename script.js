@@ -7,7 +7,11 @@ togglePassword.addEventListener("click", function () {
 
     password.setAttribute("type", type);
 
-    this.classList.toggle("bi-eye"); 
+    if(type == "password"){
+        togglePassword.setAttribute("src", "./assets/eye-slash.svg")
+    } else {
+        togglePassword.setAttribute("src", "./assets/eye.svg")
+    }
 });
 
 const form = document.querySelector("form");
